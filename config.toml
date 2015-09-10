@@ -1,0 +1,8 @@
+baseurl = "http://www.chimaira.org/hugo/sample2/"
+title = "サンプル 2"
+
+languageCode = "ja-jp"
+metaDataFormat = "yaml" # デフォルトはtoml
+contentdir = "../movie-blog/content"
+[params]
+  inspect = true

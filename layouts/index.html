@@ -1,0 +1,27 @@
+{{/* layouts/index.html */}}
+{{ partial "header.html" . }}
+<div style="color:red">template: layouts/index.html</div>
+
+<h1>{{ .Title }}</h1>
+
+{{ range .Data.Pages }}
+<div style="border: 1px gray solid; margin-bottom: 1ex">
+  <div><time>{{ .Date.Format "Mon, Jan 2, 2006" }}</time></div>
+  <h3>
+    <a href="{{ .Permalink }}">
+      {{ .Title }} ({{ .Type }})
+    </a> 
+  </h3>
+  <div>
+    {{ .Summary }}{{/* 各ページの要約 */}}
+  </div>
+</div>
+{{ end }}
+
+{{ partial "NodeVars.html" . }}
+{{ partial "TaxonomyVars.html" . }}
+{{ partial "SiteVars.html" . }}
+{{ partial "HugoVars.html" . }}
+
+{{ partial "footer.html" . }}
+
