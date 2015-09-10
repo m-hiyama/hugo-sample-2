@@ -1,6 +1,7 @@
 *.log
 .REMOTE
 public/
+layouts/partials/
 k.*
 kk.*
 kkk.*
