@@ -1,4 +1,4 @@
-baseurl = "http://www.chimaira.org/hugo/sample2/"
+baseurl = "http://hugo.chimaira.org/sample2/"
 title = "サンプル 2"
 
 languageCode = "ja-jp"
