@@ -1,0 +1,12 @@
+[submodule "content"]
+	path = content
+	url = https://github.com/m-hiyama/hugo-sample-content.git
+[submodule "layouts/layouts/partials"]
+	path = layouts/layouts/partials
+	url = https://github.com/m-hiyama/hugo-common-partials.git
+[submodule "partials"]
+	path = partials
+	url = https://github.com/m-hiyama/hugo-common-partials.git
+[submodule ".\\layouts\\partials"]
+	path = .\\layouts\\partials
+	url = https://github.com/m-hiyama/hugo-common-partials.git
