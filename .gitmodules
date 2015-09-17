@@ -10,3 +10,6 @@
 [submodule ".\\layouts\\partials"]
 	path = .\\layouts\\partials
 	url = https://github.com/m-hiyama/hugo-common-partials.git
+[submodule "layouts/partials"]
+	path = layouts/partials
+	url = https://github.com/m-hiyama/hugo-common-partials.git
